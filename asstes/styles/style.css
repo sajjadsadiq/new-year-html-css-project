@@ -69,17 +69,17 @@
 /* Banner Section End */
 
 /* Main Section Starat */
-main{
-    width: 80%;
-    margin: 0 auto;
+main {
+  width: 80%;
+  margin: 0 auto;
 }
 
 /* About Section Start */
-.about{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 100px 0;
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 100px 0;
 }
 
 .about-check-box {
@@ -100,5 +100,33 @@ main{
   font-weight: 400;
 }
 /* About Section End */
+
+/* Skill Section Start */
+.skill-title {
+  text-align: center;
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.skills-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 100px 0;
+}
+
+.skill-box {
+  width: 300px;
+  text-align: center;
+}
+
+.skill-box h4 {
+  color: #151414;
+  font-size: 30px;
+  font-weight: 700;
+  margin: 18px 0;
+}
+/* Skill Section End */
 
 /* Main Section End */
