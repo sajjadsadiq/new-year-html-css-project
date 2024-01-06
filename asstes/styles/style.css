@@ -20,6 +20,22 @@
   cursor: pointer;
 }
 
+.section-title {
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+  width: 288px;
+}
+
+.about-description {
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  width: 416px;
+  margin: 20px 0;
+}
+
 /* Banner Section Start */
 .banner {
   background-image: url("../img/banner/banner3.png");
@@ -43,7 +59,7 @@
   font-weight: 700;
 }
 
-.banner-content p {
+.sectoin-description {
   color: #fff;
   font-size: 16px;
   font-weight: 400;
@@ -51,3 +67,38 @@
   margin: 25px 0 30px 0;
 }
 /* Banner Section End */
+
+/* Main Section Starat */
+main{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* About Section Start */
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 100px 0;
+}
+
+.about-check-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 4px 0;
+}
+
+.about-check-box i {
+  font-size: 26px;
+  color: #16d887;
+}
+
+.about-check-box p {
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+}
+/* About Section End */
+
+/* Main Section End */
