@@ -59,7 +59,7 @@
   font-weight: 700;
 }
 
-.sectoin-description {
+.banner-content p {
   color: #fff;
   font-size: 16px;
   font-weight: 400;
@@ -69,7 +69,8 @@
 /* Banner Section End */
 
 /* Main Section Starat */
-main {
+main,
+.footer-content {
   width: 80%;
   margin: 0 auto;
 }
@@ -129,4 +130,109 @@ main {
 }
 /* Skill Section End */
 
+/* Callnow Section Start */
+.callnow {
+  background-image: url("../img/watch.png");
+  width: 1140px;
+  height: 300px;
+  background-size: cover;
+  margin: 130px 0;
+  position: relative;
+}
+
+.callnow-gradient {
+  background-image: url("../img/gradient1.png");
+  width: 1140px;
+  height: 300px;
+}
+
+.callnow-content {
+  position: absolute;
+  top: 70px;
+  left: 100px;
+}
+
+.callnow-content h3 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 24px;
+  width: 459px;
+}
+/* Callnow Section End */
+
 /* Main Section End */
+
+/* Footer Section Start */
+footer {
+  background: #151414;
+  padding: 130px 0;
+  color: #f8f8f8;
+}
+
+.footer-area {
+  display: flex;
+}
+
+.footer-left h3 {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.footer-left {
+  width: 60%;
+}
+
+.footer-right {
+  width: 40%;
+}
+
+.footer-description {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 20px 0;
+  width: 485px;
+}
+
+.footer-left .footer-left-social {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-right h4 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.footer-right input {
+  width: 325px;
+  height: 64px;
+  border-radius: 8px;
+  border: 1px solid #fff;
+  outline: none;
+  padding: 20px;
+  color: #f3f3f3;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 40px 0 15px 0;
+}
+
+.footer-right input:hover {
+  color: black;
+  outline: none;
+}
+
+.footer-right button {
+  border-radius: 8px;
+  background: #005fac;
+  color: #fff;
+  padding: 20px 36px;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+/* Footer Section End */
